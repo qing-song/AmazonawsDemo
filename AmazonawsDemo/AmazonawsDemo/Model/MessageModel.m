@@ -14,8 +14,7 @@
 
 + (NSDictionary *)mj_replacedKeyFromPropertyName
 {
-    return @{@"userID" : @"id",
-             };
+    return @{@"userID": @"id",};
 }
 
 - (NSString *)creationTimeString {
@@ -39,16 +38,13 @@
 
 + (NSDictionary *)mj_objectClassInArray
 {
-    return @{
-             @"items": @"MessageItemModel",
-             @"lastItem": @"MessageItemModel",
-             };
+    return @{@"items": @"MessageItemModel",
+             @"lastItem": @"MessageItemModel",};
 }
 
 + (NSDictionary *)mj_replacedKeyFromPropertyName
 {
-    return @{@"userID": @"id",
-             };
+    return @{@"userID": @"id",};
 }
 
 @end
