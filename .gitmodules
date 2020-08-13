@@ -1,0 +1,3 @@
+[submodule "AmazonawsDemo/DZNEmptyDataSet"]
+	path = AmazonawsDemo/DZNEmptyDataSet
+	url = https://github.com/qing-song/DZNEmptyDataSet.git
