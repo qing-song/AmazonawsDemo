@@ -40,14 +40,14 @@
 + (NSDictionary *)mj_objectClassInArray
 {
     return @{
-             @"items" : @"MessageItemModel",
-             @"lastItem" : @"MessageItemModel",
+             @"items": @"MessageItemModel",
+             @"lastItem": @"MessageItemModel",
              };
 }
 
 + (NSDictionary *)mj_replacedKeyFromPropertyName
 {
-    return @{@"userID" : @"id",
+    return @{@"userID": @"id",
              };
 }
 
